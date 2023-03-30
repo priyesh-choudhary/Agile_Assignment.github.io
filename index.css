@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+
+}
+
+.section1 {
+  flex: 5%;
+}
+
+.section2 {
+  flex: 90%;
+}
+
+.section3 {
+  flex: 5%;
+}
+
+nav {
+  background-color: #F0F0F0;
+  color: #fff;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 19px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-item {
+  margin-right: 13px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: blue;
+  padding: 6px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  width: 48%;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.logo-shape {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F0F0F0;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 77px;
+}
+
+.logo-text {
+  color: black;
+  margin-left: 6px;
+}
+
+span {
+  color: #1414ea;
+}
+
+.btn {
+
+  height: 45px;
+  width: 100px;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 3px;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+
+.click {
+  width: 320px;
+}
+
+.btn span {
+  color: white;
+  font-size: 28px;
+  float: right;
+}
+
+.sidebar {
+position: absolute;
+  height: 100%;
+  background: #ffffff;
+  transition: left 0.4s ease;
+  border-right:1px solid gray;
+  border-bottom:1px solid gray;
+}
+
+.sidebar.show {
+  left: 0px;
+}
+
+.txt {
+  color: black;
+  font-size: 15px;
+  background: #fffefe;
+  letter-spacing: 1px;
+}
+.navBoxElm {
+  color: black;
+  border: 1px solid blue;
+  width: 50%;
+  margin: 10px auto;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#arrow {
+  cursor: pointer;
+  margin: 3px;
+  margin-top: 10px;
+  margin-left: 11px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.description {
+  background-color: #cadcdd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 83%;
+  margin: 0px auto;
+}
+
+.description h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.cardcontainer {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 29px;
+  margin-bottom: -115px;
+}
+
+.card {
+  height: 498px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgb(85 60 60 / 59%);
+  border-radius: 15px;
+  width: 46%;
+  float: left;
+  margin-top: 35px;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+}
+
+.card-header h3 {
+  margin: 2px;
+  display: inline-block;
+}
+
+.card-description {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.info-icon {
+  font-size: 15px;
+  float: right;
+  margin-top: 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+
+.submitBtn {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 10px;
+  margin-right: 38px;
+}
+
+.card-img img {
+  width: 480px;
+  height: 291px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+
+}
+
+.blue {
+  background-color: blue;
+}
+
+.fa {
+  color: white;
+  font-size: 24px;
+}
+
+.circle {
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 94%;
+}
+
+.blue {
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+.fa {
+  color: white;
+  font-size: 24px;
+}
+
+.box {
+  margin-top: -7px;
+}
+
+.title {
+  margin-left: 32px;
+  margin-top: 6px;
+
+}
+
+.input {
+  margin-left: 32px;
+  width: 405px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  padding: 10px;
+  height: 17px;
+}
+
+.n {
+  margin: 0;
+  font-size: 12px;
+}
+
+.n-o-t-container {
+  position: absolute;
+  margin-left: 96%;
+  margin-top: 34px;
+  letter-spacing: 0.02em;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  border: 1px solid black;
+  border-width: 8px;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 12px;
+}
+
+.n-t {
+  margin: 0;
+}
+
+.n-container {
+  position: absolute;
+  margin-left: 98%;
+  margin-top: 34px;
+  letter-spacing: 0.02em;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  border: 0.5px solid rgb(130, 127, 127);
+  width: 24px;
+  color: white;
+  background-color: white;
+  height: 214.5px;
+  box-shadow: 0 2px 5px rgb(130, 127, 127);
+}
+
+.intro {
+  margin-top: -28px;
+  margin: 16px 0px;
+  margin-top: 20px;
+  background-color: rgb(221, 217, 217);
+  display: flex;
+  height: 31px;
+}
+
+.introduction {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#arrow {
+  margin-top: 9px;
+  margin-left: 20px;
+  color: black;
+}
+
+.dis {
+  margin-top: 33px;
+  margin-left: -93px;
+}
+
+.ess {
+  margin-top: -15px;
+}
+
+.see {
+  margin-top: 90px;
+  margin-left: 34px;
+}
+
+.thr {
+  margin-top: 110px;
+  background-color: rgb(221, 217, 217);
+  height: 31px;
+}
+
+#arr {
+  color: black;
+  margin-left: 26px;
+  margin-top: 9px;
+}
+
+#ar {
+  color: black;
+  margin-left: 26px;
+  margin-top: 9px;
+}
+
+.Th {
+  margin-left: 39px;
+  margin-top: -22px;
+  display: flex;
+  height: 31px;
+}
+
+.para {
+  margin-left: 55px;
+  row-gap: 0px;
+}
+
+.p {
+  height: 2px;
+}
+
+.more {
+  margin-top: 33px;
+  margin-left: 396px;
+}
+
+.example {
+  margin-top: -2px;
+  background-color: rgb(221, 217, 217);
+  height: 31px;
+  margin-right: 0px;
+  margin-left: -396px;
+}
+
+.e {
+  margin-left: 44px;
+
+}
+
+.graph {
+  margin-right: -488px;
+  margin-left: -345px;
+}
